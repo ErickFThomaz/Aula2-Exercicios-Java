@@ -48,6 +48,7 @@ public class Conta {
 
             saldo = calc;
             System.out.println(fixUtf8("\nO rendimento desse mês foi 0.24%, saldo atual: " + saldo));
+            return;
         }
         System.out.print(fixUtf8("\nVocê não tem saldo pra calcular o rendimento."));
     }
